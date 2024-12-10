@@ -1,0 +1,166 @@
+
+html {
+	font-family: calibri;
+}
+
+#titlePicture {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 250px;
+	height: 150px;
+}
+
+nav {
+  display:flex;
+  flex:1;
+  justify-content:center;
+  width:100%;
+  height:50px;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #70AD47;
+  border-radius: 10px 3em;
+}
+
+.lia {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 10px 16px;
+  text-decoration: none;
+  font-size: x-large;
+}
+
+.lia:hover {
+  background-color: green;
+}
+
+.dishIMG {
+	position: relative;
+	width: 150px;
+	height: 135px;
+	margin-top: 0px;
+	margin-left: 50px;
+	float: left;
+}
+
+.dishTitle {
+	margin-left: 20px;
+	float: left;
+	margin-bottom: 0px;
+}
+
+.dishPara {
+	margin-left: 220px;
+}
+
+.vertnav {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.vertnav:hover {
+	display: block;
+	background-color: #70AD47;
+}
+
+.dropdown {
+	float: left;
+	overflow: hidden;
+}
+
+.btn:hover + .vertnav { 
+  display: block;
+}
+
+.liav {
+    display: block;
+  color: white;
+  text-align: center;
+  padding: 10px 16px;
+  text-decoration: none;
+  font-size: x-large;
+}
+
+.liav:hover {
+  background-color: green;
+}
+
+.tryright {
+	float: right
+}
+.dishIMG2 {
+	position: relative;
+	width: 150px;
+	height: 135px;
+	margin-top: 0px;
+	margin-left: -250px;
+}
+
+.dishTitle2 {
+	margin-left: -60px;
+	margin-bottom: 0px;
+	margin-top: -120px;
+}
+
+.dishPara2 {
+	margin-left: -60px;
+	margin-right: 60px;
+}
+
+#searchBar {
+	padding: 1%;
+	margin: 5px;
+	margin-left: 60px;
+	border-radius: 2em;
+	font-size: medium;
+}
+
+#searchButton {
+	width: 60px;
+	height: 42px;
+	margin: 5px;
+	margin-left: -60px;
+	border-radius: 2em;
+}
+
+footer {
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	text-align: center;
+	background-color: lightgrey;
+	
+}
+
+.recipeTitle {
+	margin-left: 100px;
+}
+
+.recipeDesc {
+	margin-left: 100px;
+}
+
+.recipeIMG {
+	margin-left: 100px;
+	width: 500px;
+	height: 375px;
+}
+
+.ingredients {
+	margin-left: 100px;
+	float: left;
+}
+
+.instructions {
+	margin-left: 100px;
+	margin-right: 200px;
+}

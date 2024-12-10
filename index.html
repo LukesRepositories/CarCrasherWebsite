@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8" />
+		<title>Car Crasher Promo</title>
+		<link rel="stylesheet" type="text/css" href="StyleCarCrasherPromo.css">
+		
+	</head>
+	<body>
+		<img id="titlePicture" src="CarCrasherPromoOne.png" />
+		<nav>
+			<a class="lia" href="index.html">Home</a>
+			<div class="dropdown">
+				<a class="btn lia" href="MeatDishes.html">Meat Dishes</a>
+				<div class="vertnav">
+					<a class="liav" href="MeatDishes/chicken.html">Chicken</a>
+					<a class="liav" href="MeatDishes/beef.html">Beef</a>
+					<a class="liav" href="MeatDishes/pork.html">Pork</a>
+				</div>
+			</div>
+			<a class="lia" href="FishDishes.html">Fish Dishes</a>
+			<a class="lia" href="VegetarianDishes.html">Vegetarian Dishes</a>
+			<a class="lia" href="VeganDishes.html">Vegan Dishes</a>
+			<input id="searchBar" type="text" onkeypress="searchInvoked" placeholder="Search.."/>
+			<button id="searchButton" onClick="search()">Search</button>
+		</nav>
+		<div>
+			<div class="tryright">
+				<a href="MeatDishes/Chicken/ChickenandLeekPie.html"><img class="dishIMG2" src="https://food-images.files.bbci.co.uk/food/recipes/chickenandleekpie_90191_16x9.jpg" /></a>
+				<h2 class="dishTitle2" ><a href="MeatDishes/Chicken/ChickenandLeekPie.html">Chicken and Leek Pie</a></h2>
+				<p class="dishPara2" >A wintertime special that always hits the spot.</br></br><br></br></p>
+				<a href="VegetarianDishes/VegetarianLasagna.html"><img class="dishIMG2" src="https://www.inspiredtaste.net/wp-content/uploads/2016/10/Easy-Vegetable-Lasagna-Recipe-1200.jpg" /></a>
+				<h2 class="dishTitle2" ><a href="VegetarianDishes/VegetarianLasagna.html">Vegetarian Lasagna</a></h2>
+				<p class="dishPara2" >A vegetarian twist to household dish.</br></br><br></br></p>
+				<a href="MeatDishes/Pork/PorkChops.html"><img class="dishIMG2" src="https://hips.hearstapps.com/del.h-cdn.co/assets/18/11/1600x1200/sd-aspect-1520972774-pork-chops-horizontal.jpg" /></a>
+				<h2 class="dishTitle2" ><a href="MeatDishes/Pork/PorkChops.html">Pork Chops</a></h2>
+				<p class="dishPara2" >A recipe that lets you cook pork chops to perfection.</br></br><br></br></p>
+				<a href="FishDishes/FishandChips.html"><img class="dishIMG2" src="https://upload.wikimedia.org/wikipedia/commons/f/ff/Fish_and_chips_blackpool.jpg" /></a>
+				<h2 class="dishTitle2" ><a href="FishDishes/FishandChips.html">Fish and Chips</a></h2>
+				<p class="dishPara2" >A taste of the seaside that can be made at home.</br></br></br><br></p>
+				<a href="VeganDishes/CarrotandLentilSoup.html"><img class="dishIMG2" src="https://hungryhealthyhappy.com/wp-content/uploads/2014/10/Carrot-and-Lentil-Soup-featured.jpg" /></a>
+				<h2 class="dishTitle2" ><a href="VeganDishes/CarrotandLentilSoup.html">Carrot and Lentil Soup</a></h2>
+				<p class="dishPara2" >An easy lunchtime meal that can be made by anyone.</br></br></br><br></p>
+				<a href="MeatDishes/Pork/GermanPorkKnuckle.html"><img class="dishIMG2" src="https://madcreationshub.com/wp-content/uploads/2022/10/Schweinshaxe-13-500x500.jpg" /></a>
+				<h2 class="dishTitle2" ><a href="MeatDishes/Pork/GermanPorkKnuckle.html">German Pork Knuckle</a></h2>
+				<p class="dishPara2" >A dish from an often forgotten and overlooked cuisine.</br></br></br><br></p>
+				<a href="VeganDishes/MushroomSalad.html"><img class="dishIMG2" src="https://www.justonecookbook.com/wp-content/uploads/2019/09/Warm-Mushroom-Salad-with-Sesame-Dressing-5728-I-500x375.jpg" /></a>
+				<h2 class="dishTitle2" ><a href="VeganDishes/MushroomSalad.html">Mushroom Salad</a></h2>
+				<p class="dishPara2" >This is a dish that is light yet filling.</br></br></br><br></p>
+				<a href="MeatDishes/Beef/BeefStroganoff.html"><img class="dishIMG2" src="https://www.kitchensanctuary.com/wp-content/uploads/2020/01/Beef-Stroganoff-square-FS-46-500x500.jpg" /></a>
+				<h2 class="dishTitle2" ><a href="MeatDishes/Beef/BeefStroganoff.html">Beef Stroganoff</a></h2>
+				<p class="dishPara2" >This is a dish that never gets old.</br></br></br><br></p>
+				<a href="VeganDishes/TofuStirFry.html"><img class="dishIMG2" src="https://pinchofyum.com/wp-content/uploads/Honey-Ginger-Tofu-Veggie-Stir-Fry-Square.jpg" /></a>
+				<h2 class="dishTitle2" ><a href="VeganDishes/TofuStirFry.html">Tofu Stir Fry</a></h2>
+				<p class="dishPara2" >The vegan part of our stir fry series.</br></br></br><br></p>
+				<a href="MeatDishes/Beef/BeefBurger.html"><img class="dishIMG2" src="https://images.radio-canada.ca/v1/alimentation/recette/1x1/burger-asiatique.jpg" /></a>
+				<h2 class="dishTitle2" ><a href="MeatDishes/Beef/BeefBurger.html">Beef Burger</a></h2>
+				<p class="dishPara2" >One of the most recognisable dishes that's loved by the masses</br></br></br><br></p>
+				<a href="MeatDishes/Chicken/ChickenTikkaMasala.html"><img class="dishIMG2" src="https://static.onecms.io/wp-content/uploads/sites/43/2023/01/31/239867chef-johns-chicken-tikka-masala-ddmfs-3X4-0572.jpg" /></a>
+				<h2 class="dishTitle2" ><a href="MeatDishes/Chicken/ChickenTikkaMasala.html">Chicken Tikka Masala</a></h2>
+				<p class="dishPara2" >A dish that yearns to be eaten and deserves to be.</br></br></br><br></p>
+				<a href="FishDishes/CoconutFishCurry.html"><img class="dishIMG2" src="https://spicecravings.com/wp-content/uploads/2022/05/Coconut-Fish-Curry-Featured.jpg" /></a>
+				<h2 class="dishTitle2" ><a href="FishDishes/CoconutFishCurry.html">Coconut Fish Curry</a></h2>
+				<p class="dishPara2" >This recipe that never fails to surprise me with it's excellence.</br></br></br><br></p>
+				<a href="FishDishes/SmokedMackerelSalad.html"><img class="dishIMG2" src="https://www.sainsburysmagazine.co.uk/uploads/media/1800x1800/04/8854-02_mackeral_orange_fennel_0037.jpg" /></a>
+				<h2 class="dishTitle2" ><a href="FishDishes/SmokedMackerelSalad.html">Smoked Mackerel Salad</a></h2>
+				<p class="dishPara2" >A lighter option that packs a punch.</br></br></br><br></p>
+				<a href="VegetarianDishes/PaneerCurry.html"><img class="dishIMG2" src="https://www.funfoodfrolic.com/wp-content/uploads/2022/08/Paneer-Curry-Blog.jpg" /></a>
+				<h2 class="dishTitle2" ><a href="VegetarianDishes/PaneerCurry.html">Paneer Curry</a></h2>
+				<p class="dishPara2" >This beatiful Indian cheese curry lighten up anyones day.</br></br></br><br></p>
+			</div>
+			<a href="MeatDishes/Beef/SpaghettiBolognese.html"><img class="dishIMG" src="https://www.errenskitchen.com/wp-content/uploads/2015/02/Quick-Easy-Spaghetti-Bolognese2-1.jpg" /></a>
+			<h2 class="dishTitle" ><a href="MeatDishes/Beef/SpaghettiBolognese.html">Spaghetti Bolognese</a></h2>
+			<p class="dishPara" ></br></br></br></br>A classic Italian dish loved by many but mastered by few.</br></br><br></p>
+			<a href="FishDishes/TeriyakiSalmonNoodles.html"><img class="dishIMG" src="https://www.recipetineats.com/wp-content/uploads/2022/07/Teriyaki-Salmon-Noodles_1-1-SQ.jpg" /></a>
+			<h2 class="dishTitle" ><a href="FishDishes/TeriyakiSalmonNoodles.html">Teriyaki Salmon Noodles</a></h2>
+			<p class="dishPara" ></br></br></br></br>A family favourite that gets better everytime you make it.</br></br><br></p>
+			<a href="VegetarianDishes/SpanishOmelette.html"><img class="dishIMG" src="https://images.immediate.co.uk/production/volatile/sites/30/2020/08/recipe-image-legacy-id-1201679_10-7b75aa2.jpg" /></a>
+			<h2 class="dishTitle" ><a href="VegetarianDishes/SpanishOmelette.html">Spanish Omelette</a></h2>
+			<p class="dishPara" ></br></br></br></br>A brunchtime special that doesn't have to be boring.</br></br><br></p>
+			<a href="VeganDishes/Ratatouille.html"><img class="dishIMG" src="https://www.acouplecooks.com/wp-content/uploads/2021/08/Ratatouille-Recipe-009.jpg" /></a>
+			<h2 class="dishTitle" ><a href="VeganDishes/Ratatouille.html">Ratatouille</a></h2>
+			<p class="dishPara" ></br></br></br></br>A French favourite of mine that is hearty and healthy.</br></br><br></p>
+			<a href="VeganDishes/VeganCurry.html"><img class="dishIMG" src="https://www.noracooks.com/wp-content/uploads/2022/08/vegan-curry-6.jpg" /></a>
+			<h2 class="dishTitle" ><a href="VeganDishes/VeganCurry.html">Vegan Curry</a></h2>
+			<p class="dishPara" ></br></br></br></br>A vegan meal that rewires your thinking towards vegan foot.</br></br><br></p>
+			<a href="MeatDishes/Chicken/PeriPeriChickenThighs.html"><img class="dishIMG" src="https://mealplanweekly.com/wp-content/uploads/2021/02/peri-peri-chicken-thighs.jpg" /></a>
+			<h2 class="dishTitle" ><a href="MeatDishes/Chicken/PeriPeriChickenThighs.html">Peri Peri Chicken Thighs</a></h2>
+			<p class="dishPara" ></br></br></br></br>A spicy and tangy dish that hits the palate like a truck.</br></br><br></p>
+			<a href="FishDishes/CodandAsparagus.html"><img class="dishIMG" src="https://www.eatwell101.com/wp-content/uploads/2020/01/best-cod-recipe.jpg" /></a>
+			<h2 class="dishTitle" ><a href="FishDishes/CodandAsparagus.html">Cod and Asparagus</a></h2>
+			<p class="dishPara" ></br></br></br></br>This is for the lemon, garlic and butter fans.</br></br><br></p>
+			<a href="MeatDishes/Beef/BeefStirFry.html"><img class="dishIMG" src="https://www.kitchensanctuary.com/wp-content/uploads/2016/08/Ginger-Beef-Stir-Fry-square-FS.jpg" /></a>
+			<h2 class="dishTitle" ><a href="MeatDishes/Beef/BeefStirFry.html">Beef Stir Fry</a></h2>
+			<p class="dishPara" ></br></br></br></br>The beef part of are stir fry series.</br></br><br></p>
+			<a href="MeatDishes/Pork/PorkStirFry.html"><img class="dishIMG" src="https://thatspicychick.com/wp-content/uploads/2020/09/Spicy-Korean-Pork-Stir-fry-top-view-in-bowl-with-rice.jpg" /></a>
+			<h2 class="dishTitle" ><a href="MeatDishes/Pork/PorkStirFry.html">Pork Stir Fry</a></h2>
+			<p class="dishPara" ></br></br></br></br>The pork part of our stir fry series.</br></br><br></p>
+			<a href="MeatDishes/Chicken/ChickenStirFry.html"><img class="dishIMG" src="https://butteryourbiscuit.com/wp-content/uploads/2018/01/sweet-n-spicy-chicken-stir-fry-735x1105.jpg" /></a>
+			<h2 class="dishTitle" ><a href="MeatDishes/Chicken/ChickenStirFry.html">Chicken Stir Fry</a></h2>
+			<p class="dishPara" ></br></br></br></br>The chicken part of our stir fry series.</br></br><br></p>
+			<a href="MeatDishes/Pork/SausageCasserole.html"><img class="dishIMG" src="https://images.immediate.co.uk/production/volatile/sites/30/2020/08/recipe-image-legacy-id-901576_11-b01794a.jpg" /></a>
+			<h2 class="dishTitle" ><a href="MeatDishes/Pork/SausageCasserole.html">Sausage Casserole</a></h2>
+			<p class="dishPara" ></br></br></br></br>A dish for the slow cooker, do what you like while it slowly simmers away.</br></br><br></p>
+			<a href="VeganDishes/Couscous.html"><img class="dishIMG" src="https://www.acouplecooks.com/wp-content/uploads/2022/01/Couscous-004s.jpg" /></a>
+			<h2 class="dishTitle" ><a href="VeganDishes/Couscous.html">Couscous</a></h2>
+			<p class="dishPara" ></br></br></br></br>An underrated Moroccan dish that commands respect.</br></br><br></p>
+			<a href="FishDishes/FishCakes.html"><img class="dishIMG" src="https://images.immediate.co.uk/production/volatile/sites/30/2020/08/recipe-image-legacy-id-559507_11-beea63a.jpg" /></a>
+			<h2 class="dishTitle" ><a href="FishDishes/FishCakes.html">Fish Cakes</a></h2>
+			<p class="dishPara"></br></br></br><br>A dish that grows on me overtime and hopefully you too.</br></br><br></p>
+			<a href="VegetarianDishes/MacaroniCheese.html"><img class="dishIMG" src="https://realfood.tesco.com/media/images/MTU038-gbcs-david-griffen-900-h-12a0159f-c541-470f-bca8-920695ee31ef-0-960x640.jpg" /></a>
+			<h2 class="dishTitle" ><a href="VegetarianDishes/MacaroniCheese.html">Macaroni Cheese</a></h2>
+			<p class="dishPara" ></br></br></br><br>A simple dish that can be enhanced to the next level with a few adjustments.</br></br><br></p>
+		</div>
+		
+		<footer> &copy 2023 - Variety Dishes - All rights reserved </footer>
+	</body>
+</html>
