@@ -22,7 +22,7 @@ nav {
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: #70AD47;
+  background-color: #0000ff;
   border-radius: 10px 3em;
 }
 
@@ -36,7 +36,7 @@ nav {
 }
 
 .lia:hover {
-  background-color: green;
+  background-color: #00008b;
 }
 
 .dishIMG {
@@ -67,18 +67,9 @@ nav {
   z-index: 1;
 }
 
-.vertnav:hover {
-	display: block;
-	background-color: #70AD47;
-}
-
 .dropdown {
 	float: left;
 	overflow: hidden;
-}
-
-.btn:hover + .vertnav { 
-  display: block;
 }
 
 .liav {
@@ -116,21 +107,6 @@ nav {
 	margin-right: 60px;
 }
 
-#searchBar {
-	padding: 1%;
-	margin: 5px;
-	margin-left: 60px;
-	border-radius: 2em;
-	font-size: medium;
-}
-
-#searchButton {
-	width: 60px;
-	height: 42px;
-	margin: 5px;
-	margin-left: -60px;
-	border-radius: 2em;
-}
 
 footer {
 	position: fixed;
@@ -140,28 +116,4 @@ footer {
 	text-align: center;
 	background-color: lightgrey;
 	
-}
-
-.recipeTitle {
-	margin-left: 100px;
-}
-
-.recipeDesc {
-	margin-left: 100px;
-}
-
-.recipeIMG {
-	margin-left: 100px;
-	width: 500px;
-	height: 375px;
-}
-
-.ingredients {
-	margin-left: 100px;
-	float: left;
-}
-
-.instructions {
-	margin-left: 100px;
-	margin-right: 200px;
 }
