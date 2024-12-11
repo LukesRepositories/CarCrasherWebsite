@@ -126,3 +126,36 @@ footer {
 	background-color: lightgrey;
 	
 }
+
+
+
+
+.content {
+    margin: 20px auto;
+    width: 80%;
+    max-width: 800px;
+}
+
+.content h1 {
+    color: yellow;
+    margin-bottom: 20px;
+}
+
+.content h2 {
+    color: yellow;
+    margin-top: 20px;
+}
+
+.content p {
+    margin-bottom: 15px;
+    line-height: 1.6;
+}
+
+.content ul {
+    margin-left: 20px;
+    line-height: 1.6;
+}
+
+.content li {
+    margin-bottom: 10px;
+}
