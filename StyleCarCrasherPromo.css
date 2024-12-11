@@ -12,6 +12,14 @@ html {
 	height: 300px;
 }
 
+#titleVideo {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 500px;
+	height: 300px;
+}
+
 nav {
   display:flex;
   flex:1;
