@@ -5,6 +5,10 @@ html {
 	color: yellow;
 }
 
+h3 {
+	textalign: center;
+}
+
 #titlePicture {
 	display: block;
 	margin-left: auto;
